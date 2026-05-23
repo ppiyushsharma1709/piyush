@@ -6,15 +6,20 @@
 // Import stylesheet to bundle it with Vite
 import './index.css';
 
+import victoria_hero from './assets/images/regenerated_image_1779505789059.jpg';
+import honey_branding from './assets/images/honey_branding_1779504630745.png';
+import cafe_branding from './assets/images/cafe_branding_1779504649553.png';
+import wellness_campaign from './assets/images/wellness_campaign_1779504674443.png';
+
 // -----------------------------------------------------------------
 // 1. ASSETS RESOLUTION
 // -----------------------------------------------------------------
 // Map our high-fidelity generated images
 const ASSETS = {
-  victoria_hero: '/src/assets/images/regenerated_image_1779505789059.jpg',
-  honey_branding: '/src/assets/images/honey_branding_1779504630745.png',
-  cafe_branding: '/src/assets/images/cafe_branding_1779504649553.png',
-  wellness_campaign: '/src/assets/images/wellness_campaign_1779504674443.png'
+  victoria_hero,
+  honey_branding,
+  cafe_branding,
+  wellness_campaign
 };
 
 // Initialize static images

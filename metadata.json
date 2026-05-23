@@ -1,0 +1,6 @@
+{
+  "name": "Graphic Design Portfolio",
+  "description": "An interactive digital portfolio website for multidisciplinary graphic designer Victoria Wotton, featuring customized services, real-time packaging showcases, functional smartphone simulators, and a mock sticker composer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

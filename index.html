@@ -1,0 +1,1070 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piyush Sharma | Engineering & STEM Portfolio</title>
+    <!-- Lucide Icons is loaded natively in js, let's also bring in standard font styling -->
+  </head>
+  <body class="bg-art-cream text-slate-800 font-sans antialiased selection:bg-art-yellow/40 transition-colors duration-500">
+    
+    <!-- Navigation -->
+    <header class="sticky top-0 z-50 bg-art-cream/90 backdrop-blur-md border-b border-[#1A1A1A]/10 px-6 py-4.5 transition-colors duration-500">
+      <div class="max-w-7xl mx-auto flex items-center justify-between">
+        <a href="#" class="font-sans font-bold text-md tracking-[0.25em] uppercase flex items-center gap-2 text-slate-900" id="nav-logo">
+          <span class="text-art-blue">Piyush</span><span>Sharma</span>
+        </a>
+        
+        <!-- Navigation Tabs -->
+        <nav class="hidden md:flex items-center gap-8">
+          <a href="#about" class="font-sans text-[11px] font-bold uppercase tracking-widest text-[#1A1A1A]/80 hover:text-art-blue transition-colors">Engineering Focus</a>
+          <a href="#toolkit" class="font-sans text-[11px] font-bold uppercase tracking-widest text-[#1A1A1A]/80 hover:text-art-blue transition-colors">Toolkit</a>
+          <a href="#projects" class="font-sans text-[11px] font-bold uppercase tracking-widest text-[#1A1A1A]/80 hover:text-art-blue transition-colors">Showcase</a>
+          <a href="#interactive-labs" class="font-sans text-[11px] font-bold uppercase tracking-widest text-[#1A1A1A]/80 hover:text-art-blue transition-colors">Playground Labs</a>
+          <a href="#contact" class="px-5 py-2 bg-[#1A1A1A] text-white rounded-none font-sans text-[10px] font-bold uppercase tracking-widest hover:bg-art-blue hover:shadow-sm transition-all" id="cta-btn">Connect</a>
+        </nav>
+        
+        <!-- Theme Color Quick Swapper (Artistic Theme Customizer) -->
+        <div class="flex items-center gap-2">
+          <span class="hidden lg:inline text-[10px] font-mono uppercase tracking-wider text-slate-400">Palette:</span>
+          <div class="flex items-center gap-1.5 bg-white/40 p-1.5 rounded-full border border-[#1A1A1A]/10" id="palette-swapper">
+            <button data-theme="yellow" class="w-4 h-4 rounded-full bg-[#C25B40] border border-black/10 cursor-pointer focus:outline-none" title="Editorial Terracotta"></button>
+            <button data-theme="blue" class="w-4 h-4 rounded-full bg-[#5F6F52] border border-black/10 cursor-pointer focus:outline-none" title="Sage Olive"></button>
+            <button data-theme="orange" class="w-4 h-4 rounded-full bg-[#1A1A1A] border border-black/10 cursor-pointer focus:outline-none" title="Warm Coal"></button>
+            <button data-theme="slate" class="w-4 h-4 rounded-full bg-[#8C3037] border border-black/10 cursor-pointer focus:outline-none" title="Burnt Wine"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Grid -->
+    <main>
+      
+      <!-- HERO COVER PAGE (Editorial Left-Right Layout) -->
+      <section id="hero" class="relative overflow-hidden min-h-[calc(100vh-80px)] flex items-center py-10 md:py-20 px-6">
+        <!-- Abstract Background Ornaments -->
+        <div class="absolute top-1/2 left-0 -translate-y-1/2 w-96 h-96 rounded-full bg-art-blue/5 blur-3xl -z-10 pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Brochure Details Left Column -->
+          <div class="lg:col-span-6 flex flex-col items-start space-y-8" id="hero-info">
+            <!-- Selected Edition Badge -->
+            <div class="inline-flex items-center gap-2 bg-art-blue/10 text-art-blue px-3.5 py-1 rounded-none border border-art-blue/20" id="badge-container">
+              <span class="w-2 h-2 rounded-full bg-art-blue animate-pulse"></span>
+              <span class="font-mono text-[9px] font-bold uppercase tracking-widest">Selected STEM Edition</span>
+            </div>
+            
+            <div class="space-y-4">
+              <p class="font-sans font-bold text-slate-500 uppercase tracking-[0.2em] text-[11px] relative">
+                System Engineering <span class="text-art-blue inline-block hover:scale-105 transition-transform cursor-pointer">★</span> Class 9 D
+                <span class="absolute -bottom-1 left-0 w-12 h-px bg-art-blue/40"></span>
+              </p>
+              <h1 class="font-serif text-6xl sm:text-7xl lg:text-8.5xl font-light text-slate-900 tracking-tight leading-none" id="hero-title">
+                The Art of <br /><span class="font-bold text-art-blue italic">Creative</span> <br />Engineering.
+              </h1>
+              <p class="font-serif italic text-xl text-slate-600 mt-2">
+                "Where logical flow, physical mechanics, and structured code form intelligent solutions."
+              </p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto">
+              <div class="border-l border-art-blue pl-4">
+                <p class="font-sans font-bold uppercase tracking-wider text-slate-900 text-sm">Piyush Sharma</p>
+                <p class="font-mono text-[10px] text-slate-500 uppercase tracking-wider">Independent Student & Aspiring Engineer</p>
+              </div>
+              <div class="font-mono text-[10px] uppercase tracking-wider text-slate-500 sm:border-l sm:border-slate-300 sm:pl-4">
+                <a href="#projects" class="group flex items-center gap-2 text-slate-700 hover:text-art-blue font-bold transition-colors">
+                  Explore Selected Projects 
+                  <span class="group-hover:translate-x-1 transition-transform">→</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Hero Stats / Metas -->
+            <div class="grid grid-cols-3 gap-8 w-full border-t border-[#1A1A1A]/10 pt-8" id="hero-stats">
+              <div>
+                <p class="font-serif text-4xl font-light text-slate-900">9D</p>
+                <p class="font-mono text-[9px] uppercase tracking-widest text-slate-400">Class & Section</p>
+              </div>
+              <div>
+                <p class="font-serif text-4xl font-light text-slate-900">18+</p>
+                <p class="font-mono text-[9px] uppercase tracking-widest text-slate-400">STEM Prototypes</p>
+              </div>
+              <div>
+                <p class="font-serif text-4xl font-light text-slate-900">100%</p>
+                <p class="font-mono text-[9px] uppercase tracking-widest text-slate-400">Engineering Goal Focus</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Collage Right Column -->
+          <div class="lg:col-span-6 relative flex justify-center items-center" id="hero-image-wrapper">
+            <!-- Decorative Plant / Flower Overlays -->
+            <div class="absolute -top-4 -left-4 w-16 h-16 bg-art-yellow/20 rounded-full flex items-center justify-center animate-bounce duration-3000 pointer-events-none">
+              <span class="text-3xl">⚙️</span>
+            </div>
+            <div class="absolute -bottom-6 -right-6 w-24 h-24 bg-art-blue/15 rounded-full flex items-center justify-center animate-pulse pointer-events-none">
+              <span class="text-4xl">🚀</span>
+            </div>
+            
+            <div class="relative group max-w-[420px] shadow-2xl rounded-3xl overflow-hidden bg-white p-4 border border-slate-200/50 transform rotate-1 hover:rotate-0 transition-all duration-500">
+              <!-- Animated Paint blobs behind -->
+              <div class="absolute inset-0 bg-linear-to-tr from-art-yellow/20 via-art-blue/10 to-art-orange/20 mix-blend-multiply opacity-50 z-0"></div>
+              
+              <!-- Custom Canvas portrait with transparent referrer -->
+              <div class="relative aspect-[3/4] rounded-2xl overflow-hidden bg-slate-50 z-10 border border-slate-100">
+                <img 
+                  id="hero-portrait-img" 
+                  alt="Piyush Sharma Portrait" 
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" 
+                  referrerpolicy="no-referrer"
+                  src="" 
+                />
+              </div>
+              
+              <!-- Subtle label card -->
+              <div class="relative z-10 mt-4 flex justify-between items-center text-xs font-mono text-slate-500">
+                <span>PORTRAIT_PIYUSH_SHARMA.JPG</span>
+                <span class="text-slate-400">01 / 18 PROJECT</span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- SERVICES / WHAT I DO SECTION -->
+      <section id="about" class="bg-white py-20 px-6 border-y border-[#1A1A1A]/10 relative">
+        <div class="max-w-7xl mx-auto">
+          
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-16">
+            <div class="lg:col-span-5">
+              <p class="font-mono text-xs font-bold text-art-blue uppercase tracking-widest mb-2">My Engineering Focus</p>
+              <h2 class="font-serif text-4xl sm:text-5xl font-light text-slate-900 tracking-tight leading-tight">
+                My Core Specialties<br /><span class="italic font-normal text-slate-500 text-3xl sm:text-4xl">STEM, Mechanics & Software</span>
+              </h2>
+            </div>
+            <div class="lg:col-span-7 lg:pl-8">
+              <p class="text-slate-600 text-lg leading-relaxed font-light">
+                As an aspiring engineer from Class 9 D, I build interactive software systems, explore physical computing with robotics kits, and design mechanical layouts that combine strategic logic with beautiful front-end designs. Every system is made to test practical problem-solving.
+              </p>
+            </div>
+          </div>
+
+          <!-- Services Grid cards -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="services-grid">
+            
+            <!-- Service item 1 -->
+            <div class="bg-art-cream/30 p-8 rounded-none border border-[#1A1A1A]/10 hover:border-art-blue hover:bg-white transition-all group cursor-pointer relative overflow-hidden" id="srv-branding">
+              <div class="absolute top-0 right-0 w-24 h-24 bg-art-blue/5 rounded-bl-none transition-colors"></div>
+              <div class="w-12 h-12 bg-white border border-[#1A1A1A]/10 rounded-none flex items-center justify-center text-art-blue mb-6 group-hover:bg-art-blue group-hover:text-white transition-all">
+                <i data-lucide="cpu" class="w-5 h-5"></i>
+              </div>
+              <h3 class="font-serif font-bold text-xl text-slate-900 mb-3">Robotics & IoT</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                Physical computing prototypes leveraging Arduino controllers, sensor arrays, real-time feedback systems, and mechanical actuators.
+              </p>
+              <div class="flex items-center gap-1.5 font-sans text-[10px] text-art-blue font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                <span>View showcase</span> <span>→</span>
+              </div>
+            </div>
+
+            <!-- Service item 2 -->
+            <div class="bg-art-cream/30 p-8 rounded-none border border-[#1A1A1A]/10 hover:border-art-blue hover:bg-white transition-all group cursor-pointer relative overflow-hidden" id="srv-web">
+              <div class="absolute top-0 right-0 w-24 h-24 bg-art-blue/5 rounded-bl-none transition-colors"></div>
+              <div class="w-12 h-12 bg-white border border-[#1A1A1A]/10 rounded-none flex items-center justify-center text-art-blue mb-6 group-hover:bg-art-blue group-hover:text-white transition-all">
+                <i data-lucide="smartphone" class="w-5 h-5"></i>
+              </div>
+              <h3 class="font-serif font-bold text-xl text-slate-900 mb-3">Web Engineering</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                Building custom, high-speed interactive portals and UI layout experiments with pure CSS patterns, semantic HTML, and vanilla JavaScript.
+              </p>
+              <div class="flex items-center gap-1.5 font-sans text-[10px] text-art-blue font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                <span>Try Simulator</span> <span>→</span>
+              </div>
+            </div>
+
+            <!-- Service item 3 -->
+            <div class="bg-art-cream/30 p-8 rounded-none border border-[#1A1A1A]/10 hover:border-art-blue hover:bg-white transition-all group cursor-pointer relative overflow-hidden" id="srv-direction">
+              <div class="absolute top-0 right-0 w-24 h-24 bg-art-blue/5 rounded-bl-none transition-colors"></div>
+              <div class="w-12 h-12 bg-white border border-[#1A1A1A]/10 rounded-none flex items-center justify-center text-art-blue mb-6 group-hover:bg-art-blue group-hover:text-white transition-all">
+                <i data-lucide="compass" class="w-5 h-5"></i>
+              </div>
+              <h3 class="font-serif font-bold text-xl text-slate-900 mb-3">Mechanical CAD Design</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                3D CAD layouts, parameter mapping, complex physical structure designs with high efficiency rates and material testing guides.
+              </p>
+              <div class="flex items-center gap-1.5 font-sans text-[10px] text-art-blue font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                <span>View Layouts</span> <span>→</span>
+              </div>
+            </div>
+
+            <!-- Service item 4 -->
+            <div class="bg-art-cream/30 p-8 rounded-none border border-[#1A1A1A]/10 hover:border-art-blue hover:bg-white transition-all group cursor-pointer relative overflow-hidden" id="srv-editorial">
+              <div class="absolute top-0 right-0 w-24 h-24 bg-art-blue/5 rounded-bl-none transition-colors"></div>
+              <div class="w-12 h-12 bg-white border border-[#1A1A1A]/10 rounded-none flex items-center justify-center text-art-blue mb-6 group-hover:bg-art-blue group-hover:text-white transition-all">
+                <i data-lucide="book-open" class="w-5 h-5"></i>
+              </div>
+              <h3 class="font-serif font-bold text-xl text-slate-900 mb-3">Computational Logic</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                Sophisticated algorithm diagrams, step-by-step pseudo-code, mathematical frameworks, and logical state architectures.
+              </p>
+              <div class="flex items-center gap-1.5 font-sans text-[10px] text-art-blue font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                <span>Read Logic Case</span> <span>→</span>
+              </div>
+            </div>
+
+            <!-- Service item 5 -->
+            <div class="bg-art-cream/30 p-8 rounded-none border border-[#1A1A1A]/10 hover:border-art-blue hover:bg-white transition-all group cursor-pointer relative overflow-hidden" id="srv-social">
+              <div class="absolute top-0 right-0 w-24 h-24 bg-art-blue/5 rounded-bl-none transition-colors"></div>
+              <div class="w-12 h-12 bg-white border border-[#1A1A1A]/10 rounded-none flex items-center justify-center text-art-blue mb-6 group-hover:bg-art-blue group-hover:text-white transition-all">
+                <i data-lucide="sparkles" class="w-5 h-5"></i>
+              </div>
+              <h3 class="font-serif font-bold text-xl text-slate-900 mb-3">Creative Tech Labs</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                Custom badge generators, high-fidelity layouts, and vector builders designed to maximize interactivity and STEM research.
+              </p>
+              <div class="flex items-center gap-1.5 font-sans text-[10px] text-art-blue font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                <span>Launch Sticker Lab</span> <span>→</span>
+              </div>
+            </div>
+
+            <!-- Custom Quote CTA -->
+            <div class="bg-[#1A1A1A] p-8 rounded-none text-white flex flex-col justify-between relative overflow-hidden group">
+              <div class="absolute -bottom-8 -right-8 w-32 h-32 bg-art-blue/10 rounded-full blur-xl group-hover:scale-125 transition-transform duration-500"></div>
+              <div>
+                <span class="font-mono text-[9px] text-[#E89E7E] tracking-widest font-bold uppercase">STEM COLLABORATION</span>
+                <p class="font-serif text-2xl font-light leading-relaxed mt-4">
+                  "Ready to construct custom hardware and code responsive physical engines?"
+                </p>
+              </div>
+              <a href="#contact" class="flex items-center justify-between bg-art-blue text-white rounded-none px-5 py-3.5 mt-6 font-sans text-[10px] font-bold uppercase tracking-widest hover:bg-white hover:text-[#1A1A1A] transition-colors">
+                <span>COORDINATE WORK</span>
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CREATIVE TOOLKIT SECTION -->
+      <section id="toolkit" class="bg-art-cream py-20 px-6 border-b border-[#1A1A1A]/10 relative">
+        <div class="max-w-7xl mx-auto">
+          
+          <div class="text-center max-w-2xl mx-auto mb-16">
+            <p class="font-mono text-xs font-bold text-art-blue uppercase tracking-widest mb-2">My Engineering Stack</p>
+            <h2 class="font-serif text-4xl sm:text-5xl font-light text-slate-900 tracking-tight">
+              My Engineering Toolkit
+            </h2>
+            <p class="text-slate-500 font-mono text-[10px] uppercase tracking-wider mt-3">
+              *Adjust parameters or click icons to filter project workflows dynamically
+            </p>
+          </div>
+
+          <!-- Main toolkit grid -->
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch">
+            
+            <!-- Software parameters (Interactive) -->
+            <div class="lg:col-span-6 bg-white p-8 rounded-none border border-[#1A1A1A]/10 shadow-xs space-y-8 flex flex-col justify-between" id="software-toolkit-card">
+              <div>
+                <h3 class="font-serif font-bold text-xl text-slate-900 mb-2 flex items-center gap-2">
+                  <i data-lucide="cpu" class="w-5 h-5 text-art-blue"></i>
+                  System Efficiency
+                </h3>
+                <p class="text-xs text-slate-500 font-sans leading-relaxed mb-6">
+                  Click on any toolkit suite below to highlight the custom prototypes engineered using that workflow, or inspect scores.
+                </p>
+                
+                <div class="space-y-6" id="software-bars-container">
+                  <!-- Skill Slider 1 -->
+                  <div class="space-y-1 group cursor-pointer" id="logo-fig">
+                    <div class="flex items-center justify-between text-[11px] font-sans uppercase tracking-wider">
+                      <span class="text-slate-800 font-bold flex items-center gap-2">
+                        <span class="w-2.5 h-2.5 rounded-none bg-orange-600 inline-block"></span> VS Code & JS Engine
+                      </span>
+                      <span class="text-slate-500 font-bold" id="level-fig">95%</span>
+                    </div>
+                    <div class="h-1.5 w-full bg-slate-100 rounded-none overflow-hidden">
+                      <div class="h-full bg-orange-600 transition-all duration-1000 ease-out" style="width: 95%" id="bar-fig"></div>
+                    </div>
+                  </div>
+
+                  <!-- Skill Slider 2 -->
+                  <div class="space-y-1 group cursor-pointer" id="logo-ai">
+                    <div class="flex items-center justify-between text-[11px] font-sans uppercase tracking-wider">
+                      <span class="text-slate-800 font-bold flex items-center gap-2">
+                        <span class="w-2.5 h-2.5 rounded-none bg-yellow-600 inline-block"></span> Arduino & Hardware
+                      </span>
+                      <span class="text-slate-500 font-bold" id="level-ai">90%</span>
+                    </div>
+                    <div class="h-1.5 w-full bg-slate-100 rounded-none overflow-hidden">
+                      <div class="h-full bg-yellow-600 transition-all duration-1000 ease-out" style="width: 90%" id="bar-ai"></div>
+                    </div>
+                  </div>
+
+                  <!-- Skill Slider 3 -->
+                  <div class="space-y-1 group cursor-pointer" id="logo-ps">
+                    <div class="flex items-center justify-between text-[11px] font-sans uppercase tracking-wider">
+                      <span class="text-slate-800 font-bold flex items-center gap-2">
+                        <span class="w-2.5 h-2.5 rounded-none bg-blue-600 inline-block"></span> Python / C++ Logic
+                      </span>
+                      <span class="text-slate-500 font-bold" id="level-ps">92%</span>
+                    </div>
+                    <div class="h-1.5 w-full bg-slate-100 rounded-none overflow-hidden">
+                      <div class="h-full bg-blue-600 transition-all duration-1000 ease-out" style="width: 92%" id="bar-ps"></div>
+                    </div>
+                  </div>
+
+                  <!-- Skill Slider 4 -->
+                  <div class="space-y-1 group cursor-pointer" id="logo-id">
+                    <div class="flex items-center justify-between text-[11px] font-sans uppercase tracking-wider">
+                      <span class="text-slate-800 font-bold flex items-center gap-2">
+                        <span class="w-2.5 h-2.5 rounded-none bg-pink-600 inline-block"></span> CAD (SolidWorks/Figma)
+                      </span>
+                      <span class="text-slate-500 font-bold" id="level-id">82%</span>
+                    </div>
+                    <div class="h-1.5 w-full bg-slate-100 rounded-none overflow-hidden">
+                      <div class="h-full bg-pink-600 transition-all duration-1000 ease-out" style="width: 82%" id="bar-id"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Interactive Skill Booster tool -->
+              <div class="bg-art-cream p-4 rounded-none border border-[#1A1A1A]/10 mt-6 md:mt-0">
+                <span class="font-mono text-[9px] text-slate-400 font-bold uppercase tracking-widest block mb-1">Interactive Sandbox Simulator</span>
+                <span class="font-serif font-bold text-xs text-slate-800 block">Simulate Engineering Efficiency Booster</span>
+                <div class="flex items-center gap-4 mt-3">
+                  <input type="range" min="1" max="5" value="1" class="w-full accent-art-blue h-1 bg-slate-200 cursor-pointer" id="experience-slider" />
+                  <span class="text-[10px] font-mono uppercase text-slate-700 whitespace-nowrap bg-white border border-[#1A1A1A]/10 px-2.5 py-1 rounded-none shadow-xs font-bold" id="experience-label">Base Level</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Theory/Soft Skills Blocks (Right Column) -->
+            <div class="lg:col-span-6 flex flex-col gap-6 justify-between">
+              
+              <!-- Creative skills -->
+              <div class="bg-white p-6 rounded-none border border-[#1A1A1A]/10 flex-1">
+                <h3 class="font-serif font-bold text-lg text-slate-900 border-b border-[#1A1A1A]/10 pb-3 mb-4 flex items-center gap-2">
+                  <i data-lucide="cpu" class="w-4.5 h-4.5 text-art-blue"></i>
+                  Technical Engineering Skills
+                </h3>
+                <div class="grid grid-cols-2 gap-4">
+                  <div class="bg-art-cream/20 p-4 border border-[#1A1A1A]/5 rounded-none hover:bg-white hover:border-art-blue transition-all cursor-context-menu">
+                    <span class="font-serif font-bold text-slate-800 text-sm block">Circuit Prototyping</span>
+                    <span class="font-mono text-[9px] text-slate-400">Wiring sensors & actuators</span>
+                  </div>
+                  <div class="bg-art-cream/20 p-4 border border-[#1A1A1A]/5 rounded-none hover:bg-white hover:border-art-blue transition-all cursor-context-menu">
+                    <span class="font-serif font-bold text-slate-800 text-sm block">UI Architecture</span>
+                    <span class="font-mono text-[9px] text-slate-400">Coding responsive web layouts</span>
+                  </div>
+                  <div class="bg-art-cream/20 p-4 border border-[#1A1A1A]/5 rounded-none hover:bg-white hover:border-art-blue transition-all cursor-context-menu">
+                    <span class="font-serif font-bold text-slate-800 text-sm block">Solid Mechanics</span>
+                    <span class="font-mono text-[9px] text-slate-400">Parameterizing 3D structures</span>
+                  </div>
+                  <div class="bg-art-cream/20 p-4 border border-[#1A1A1A]/5 rounded-none hover:bg-white hover:border-art-blue transition-all cursor-context-menu">
+                    <span class="font-serif font-bold text-slate-800 text-sm block">Algorithmic Flow</span>
+                    <span class="font-mono text-[9px] text-slate-400">Logical puzzle optimization</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Professional soft skills -->
+              <div class="bg-white p-6 rounded-none border border-[#1A1A1A]/10 flex-1">
+                <h3 class="font-serif font-bold text-lg text-slate-900 border-b border-[#1A1A1A]/10 pb-3 mb-4 flex items-center gap-2">
+                  <i data-lucide="check-circle" class="w-4.5 h-4.5 text-art-blue"></i>
+                  Key Student Strengths
+                </h3>
+                <div class="grid grid-cols-2 gap-4">
+                  <div class="bg-art-cream/20 p-4 border border-[#1A1A1A]/5 rounded-none hover:bg-white hover:border-art-blue transition-all cursor-context-menu">
+                    <span class="font-serif font-bold text-slate-800 text-sm block">Active Learning</span>
+                    <span class="font-mono text-[9px] text-slate-400">Grasping math & physics fast</span>
+                  </div>
+                  <div class="bg-art-cream/20 p-4 border border-[#1A1A1A]/5 rounded-none hover:bg-white hover:border-art-blue transition-all cursor-context-menu">
+                    <span class="font-serif font-bold text-slate-800 text-sm block">Attention to Precision</span>
+                    <span class="font-mono text-[9px] text-slate-400">Decimal accuracy in code</span>
+                  </div>
+                  <div class="bg-art-cream/20 p-4 border border-[#1A1A1A]/5 rounded-none hover:bg-white hover:border-art-blue transition-all cursor-context-menu">
+                    <span class="font-serif font-bold text-slate-800 text-sm block">Agile Debugging</span>
+                    <span class="font-mono text-[9px] text-slate-400">Step-by-step issue isolation</span>
+                  </div>
+                  <div class="bg-art-cream/20 p-4 border border-[#1A1A1A]/5 rounded-none hover:bg-white hover:border-art-blue transition-all cursor-context-menu">
+                    <span class="font-serif font-bold text-slate-800 text-sm block">Project Assembly</span>
+                    <span class="font-mono text-[9px] text-slate-400">Connecting code with hardware</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Interactive Quote prompt -->
+              <div class="bg-[#1A1A1A] border-t-2 border-art-blue text-white p-5 rounded-none flex items-center justify-between shadow-xs" id="toolkit-motto">
+                <div>
+                  <span class="font-mono text-[9px] text-[#E89E7E] tracking-widest font-bold block uppercase animate-pulse">MY ENGINEERING PHILOSOPHY</span>
+                  <p class="font-serif italic text-sm mt-1">"I believe tools are extensions of logic that find elegant expression in mathematical geometry."</p>
+                </div>
+                <div class="w-10 h-10 rounded-none border border-white/10 bg-white/5 flex items-center justify-center shrink-0 ml-4">
+                  <span class="text-md">★</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- TABBED PROJECTS SHOWCASE SECTION -->
+      <section id="projects" class="bg-white py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+          
+          <div class="flex flex-col md:flex-row items-baseline md:items-end justify-between border-b border-[#1A1A1A]/10 pb-6 mb-12">
+            <div>
+              <p class="font-mono text-xs font-bold text-art-blue uppercase tracking-widest mb-2">My Work Showcase</p>
+              <h2 class="font-serif text-4xl sm:text-5xl font-light text-slate-900 tracking-tight">
+                Selected STEM & Engineering Prototypes
+              </h2>
+            </div>
+            
+            <!-- Dynamic Category Filter tabs -->
+            <div class="flex flex-wrap gap-1 px-1 py-1 mt-6 md:mt-0 bg-[#1A1A1A]/5 rounded-none border border-[#1A1A1A]/10" id="project-filter-tabs">
+              <button data-filter="all" class="px-4 py-2 rounded-none font-sans text-[10px] font-bold uppercase tracking-widest transition-all bg-[#1A1A1A] text-white cursor-pointer">
+                All Prototypes
+              </button>
+              <button data-filter="branding" class="px-4 py-2 rounded-none font-sans text-[10px] font-bold uppercase tracking-widest text-slate-600 hover:text-slate-900 transition-all cursor-pointer">
+                Robotics & IoT
+              </button>
+              <button data-filter="web" class="px-4 py-2 rounded-none font-sans text-[10px] font-bold uppercase tracking-widest text-slate-600 hover:text-slate-900 transition-all cursor-pointer">
+                Web Systems
+              </button>
+              <button data-filter="social" class="px-4 py-2 rounded-none font-sans text-[10px] font-bold uppercase tracking-widest text-slate-600 hover:text-slate-900 transition-all cursor-pointer">
+                Badge Labs
+              </button>
+            </div>
+          </div>
+
+          <!-- Project grid cards -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-target-grid">
+            
+            <!-- Project 1: NECTAR & HONEY (Branding as IoT) -->
+            <div data-project-category="branding" data-tools="ai,ps" class="bg-white rounded-none border border-[#1A1A1A]/10  overflow-hidden hover:border-art-blue transition-all group cursor-pointer flex flex-col justify-between">
+              <div>
+                <div class="relative aspect-4/3 overflow-hidden bg-orange-50/10 border-b border-[#1A1A1A]/10">
+                  <div class="absolute inset-0 bg-orange-600/5 group-hover:bg-orange-600/0 transition-colors z-10"></div>
+                  <img 
+                    id="img-nectar" 
+                    alt="IoT Nectar Hive Prototype" 
+                    class="w-full h-full object-cover group-hover:scale-104 transition-transform duration-500 ease-out" 
+                    referrerpolicy="no-referrer"
+                    src="" 
+                  />
+                  <!-- Category Overlay Tag -->
+                  <span class="absolute top-4 left-4 z-20 bg-[#1A1A1A] text-white font-mono text-[8px] font-bold px-2 py-0.5 rounded-none uppercase tracking-widest border border-white/10">
+                    IOT AUTOMATION PROTO
+                  </span>
+                </div>
+                <div class="p-6">
+                  <div class="flex items-center gap-1 text-[10px] text-slate-400 font-mono uppercase tracking-wider mb-2">
+                    <span>Made in: Arduino, Python</span>
+                  </div>
+                  <h3 class="font-serif font-bold text-xl text-slate-900 group-hover:text-art-blue transition-colors mb-2">Nectar Smart Hive</h3>
+                  <p class="text-slate-500 text-xs leading-relaxed">
+                    Organic raw mountain honey hive status controller featuring temperature telemetry trackers, automated layout systems, and custom status indicators.
+                  </p>
+                </div>
+              </div>
+              <div class="p-6 pt-0 flex justify-between items-center text-[10px] font-mono font-bold text-slate-600 border-t border-[#1A1A1A]/10 mt-4 pt-4">
+                <span class="text-slate-400">Project Spec // V3.2</span>
+                <span class="text-art-blue group-hover:translate-x-1 transition-transform flex items-center gap-1">Details →</span>
+              </div>
+            </div>
+
+            <!-- Project 2: BLOOM CAFE (Branding as Hydroponics) -->
+            <div data-project-category="branding" data-tools="ai,ps,id" class="bg-white rounded-none border border-[#1A1A1A]/10  overflow-hidden hover:border-art-blue transition-all group cursor-pointer flex flex-col justify-between">
+              <div>
+                <div class="relative aspect-4/3 overflow-hidden bg-rose-50/10 border-b border-[#1A1A1A]/10">
+                  <div class="absolute inset-0 bg-pink-600/5 group-hover:bg-pink-600/0 transition-colors z-10"></div>
+                  <img 
+                    id="img-bloom-cafe" 
+                    alt="Bloom Nutrient Controller Mockup" 
+                    class="w-full h-full object-cover group-hover:scale-104 transition-transform duration-500 ease-out" 
+                    referrerpolicy="no-referrer"
+                    src="" 
+                  />
+                  <span class="absolute top-4 left-4 z-20 bg-[#1A1A1A] text-white font-mono text-[8px] font-bold px-2 py-0.5 rounded-none uppercase tracking-widest border border-white/10">
+                    BOTANICAL ROBOTICS
+                  </span>
+                </div>
+                <div class="p-6">
+                  <div class="flex items-center gap-1 text-[10px] text-slate-400 font-mono uppercase tracking-wider mb-2">
+                    <span>Made in: Arduino, CAD Layout</span>
+                  </div>
+                  <h3 class="font-serif font-bold text-xl text-slate-900 group-hover:text-art-blue transition-colors mb-2">Bloom Hydroponics</h3>
+                  <p class="text-slate-500 text-xs leading-relaxed">
+                    Dynamic autonomous micro-irrigation controller designed to tune soil parameters, monitor humidity metrics, and track local light spectra.
+                  </p>
+                </div>
+              </div>
+              <div class="p-6 pt-0 flex justify-between items-center text-[10px] font-mono font-bold text-slate-600 border-t border-[#1A1A1A]/10 mt-4 pt-4">
+                <span class="text-slate-400">Project Spec // V1.0</span>
+                <span class="text-art-blue group-hover:translate-x-1 transition-transform flex items-center gap-1">Details →</span>
+              </div>
+            </div>
+
+            <!-- Project 3: MODI AGENCY (Branding as Robot Axis) -->
+            <div data-project-category="branding" data-tools="ai,id" class="bg-white rounded-none border border-[#1A1A1A]/10  overflow-hidden hover:border-art-blue transition-all group cursor-pointer flex flex-col justify-between">
+              <div>
+                <div class="relative aspect-4/3 overflow-hidden bg-teal-50/10 border-b border-[#1A1A1A]/10 flex items-center justify-center p-8">
+                  <div class="absolute inset-0 bg-slate-900/5 group-hover:bg-slate-900/0 transition-colors z-10"></div>
+                  <!-- Minimal design mockup simulated directly with vector classes -->
+                  <div class="w-full h-full bg-slate-900 text-slate-100 rounded-none flex flex-col justify-between p-6 border border-white/10 relative overflow-hidden">
+                    <div class="absolute -right-16 -top-16 w-36 h-36 bg-slate-800 rounded-none border border-slate-700/60 flex items-center justify-center">
+                      <span class="font-sans text-[#E89E7E] text-[10px] tracking-widest uppercase">MODI</span>
+                    </div>
+                    <div class="flex items-center justify-between z-10">
+                      <span class="font-sans tracking-[0.2em] font-extrabold text-white text-[11px]">MODI ROBOT</span>
+                      <span class="font-mono text-[8px] text-[#A7F3D0]">V.2</span>
+                    </div>
+                    <div class="space-y-2 z-10">
+                      <h4 class="font-serif italic text-[15px] leading-snug">"Mapping precise obstacle avoidance vectors on contemporary terrains."</h4>
+                      <p class="font-mono text-[8px] text-slate-400 tracking-wider">ROBOTICS EXPERIMENTS ©2026</p>
+                    </div>
+                  </div>
+                  <span class="absolute top-4 left-4 z-20 bg-[#1A1A1A] text-white font-mono text-[8px] font-bold px-2 py-0.5 rounded-none uppercase tracking-widest border border-white/10">
+                    ROBOT COMPONENT AXIS
+                  </span>
+                </div>
+                <div class="p-6">
+                  <div class="flex items-center gap-1 text-[10px] text-slate-400 font-mono uppercase tracking-wider mb-2">
+                    <span>Made in: SolidWorks, C++</span>
+                  </div>
+                  <h3 class="font-serif font-bold text-xl text-slate-900 group-hover:text-art-blue transition-colors mb-2">Modi Chasis Node</h3>
+                  <p class="text-slate-500 text-xs leading-relaxed">
+                    Compact autonomous navigation node with structured chassis layers, distance sensor configurations, and custom step motor logic.
+                  </p>
+                </div>
+              </div>
+              <div class="p-6 pt-0 flex justify-between items-center text-[10px] font-mono font-bold text-slate-600 border-t border-[#1A1A1A]/10 mt-4 pt-4">
+                <span class="text-slate-400">Project Spec // V2.0</span>
+                <span class="text-art-blue group-hover:translate-x-1 transition-transform flex items-center gap-1">Details →</span>
+              </div>
+            </div>
+
+            <!-- Project 4: WHERE CLARITY MEETS DESIGN (Web & UI) -->
+            <div data-project-category="web" data-tools="fig" class="bg-white rounded-none border border-[#1A1A1A]/10  overflow-hidden hover:border-art-blue transition-all group cursor-pointer flex flex-col justify-between md:col-span-2">
+              <div>
+                <div class="relative bg-slate-900 overflow-hidden border-b border-[#1A1A1A]/10 p-8 sm:p-12 flex flex-col lg:flex-row items-center gap-8">
+                  <div class="absolute inset-0 bg-linear-to-br from-art-blue/5 via-slate-900/50 to-art-blue/10 z-0"></div>
+                  
+                  <div class="w-full lg:w-1/2 space-y-4 z-10 text-white">
+                    <span class="bg-art-blue text-white font-mono text-[8px] font-bold px-2 py-0.5 rounded-none uppercase tracking-widest">
+                      UI/UX WIREFRAMES & PROTOTYPES
+                    </span>
+                    <h3 class="font-serif text-3xl font-light leading-tight">Where Clarity Meets UI Design</h3>
+                    <p class="text-slate-300 text-xs leading-relaxed">
+                      Interactive layout systems emphasizing responsive UI hierarchies and clean mathematical calculations. Try the mobile app simulator below!
+                    </p>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                      <span class="bg-slate-800 text-slate-300 font-mono text-[9px] px-2 py-0.5 rounded-none border border-slate-700">Calculators</span>
+                      <span class="bg-slate-800 text-slate-300 font-mono text-[9px] px-2 py-0.5 rounded-none border border-slate-700">Fluid Layouts</span>
+                      <span class="bg-slate-800 text-slate-300 font-mono text-[9px] px-2 py-0.5 rounded-none border border-slate-700">Responsive Logic</span>
+                    </div>
+                  </div>
+
+                  <!-- Mini Wireframe elements overlay -->
+                  <div class="w-full lg:w-1/2 flex justify-center z-10 relative">
+                    <div class="bg-slate-900 border border-slate-750 p-4 rounded-none shadow-xs w-full max-w-[280px] space-y-4">
+                      <!-- Grid wireframe header -->
+                      <div class="flex items-center justify-between border-b border-slate-800 pb-2.5">
+                        <span class="text-[9px] font-mono text-art-blue font-bold">stem_ui_wireframe_72</span>
+                        <div class="flex gap-1">
+                          <span class="w-1.5 h-1.5 bg-slate-700"></span>
+                          <span class="w-1.5 h-1.5 bg-slate-700"></span>
+                        </div>
+                      </div>
+                      
+                      <!-- Skeleton blocks -->
+                      <div class="space-y-2">
+                        <div class="h-3 w-2/3 bg-slate-800 rounded-none"></div>
+                        <div class="h-2 w-full bg-slate-800 rounded-none"></div>
+                        <div class="h-22 w-full bg-slate-800 rounded-none flex items-center justify-center text-slate-600 border border-slate-850 border-dashed">
+                          <i data-lucide="image" class="w-8 h-8 opacity-30"></i>
+                        </div>
+                      </div>
+                      
+                      <!-- Buttons wireframe -->
+                      <div class="grid grid-cols-2 gap-2">
+                        <div class="h-6 bg-slate-800 rounded-none flex items-center justify-center text-[7px] font-mono text-slate-400 uppercase">Primary</div>
+                        <div class="h-6 bg-art-blue text-white font-bold rounded-none flex items-center justify-center text-[7px] font-mono uppercase">Interactive</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="p-6">
+                  <div class="flex items-center gap-1 text-[10px] text-slate-400 font-mono uppercase tracking-wider mb-2">
+                    <span>Made in: VS Code (CSS layout, JS State Variables)</span>
+                  </div>
+                  <h3 class="font-serif font-bold text-xl text-slate-900 group-hover:text-art-blue transition-colors mb-2">Web layout Wireframe Library</h3>
+                  <p class="text-slate-500 text-xs leading-relaxed">
+                    Custom modular UI library constructed to bridge core requirements between pure logical performance and gorgeous aesthetics.
+                  </p>
+                </div>
+              </div>
+              <div class="p-6 pt-0 flex justify-between items-center text-[10px] font-mono font-bold text-slate-600 border-t border-[#1A1A1A]/10 mt-4 pt-4">
+                <span class="text-slate-400">Library Spec // V4.1</span>
+                <span class="text-art-blue font-bold flex items-center gap-1">Interactive Simulator Below ↑</span>
+              </div>
+            </div>
+
+            <!-- Project 5: SELF-CARE WELLNESS CAMPAIGN (Social Media/Badge Lab) -->
+            <div data-project-category="social" data-tools="ai,ps" class="bg-white rounded-none border border-[#1A1A1A]/10  overflow-hidden hover:border-art-blue transition-all group cursor-pointer flex flex-col justify-between">
+              <div>
+                <div class="relative aspect-4/3 overflow-hidden bg-purple-50/10 border-b border-[#1A1A1A]/10">
+                  <div class="absolute inset-0 bg-purple-600/5 group-hover:bg-purple-600/0 transition-colors z-10"></div>
+                  <img 
+                    id="img-wellness" 
+                    alt="Badge Sandbox Mockup" 
+                    class="w-full h-full object-cover group-hover:scale-104 transition-transform duration-500 ease-out" 
+                    referrerpolicy="no-referrer"
+                    src="" 
+                  />
+                  <span class="absolute top-4 left-4 z-20 bg-[#1A1A1A] text-white font-mono text-[8px] font-bold px-2 py-0.5 rounded-none uppercase tracking-widest border border-white/10">
+                    STEM BADGE DESIGN
+                  </span>
+                </div>
+                <div class="p-6">
+                  <div class="flex items-center gap-1 text-[10px] text-slate-400 font-mono uppercase tracking-wider mb-2">
+                    <span>Made in: VS Code, Python, CSS</span>
+                  </div>
+                  <h3 class="font-serif font-bold text-xl text-slate-900 group-hover:text-art-blue transition-colors mb-2">Piyush Class 9 D Badge Lab</h3>
+                  <p class="text-slate-500 text-xs leading-relaxed">
+                    Interactive badge compilation utility designed for Class 9 D to customize daily slogans, STEM stamps, and background settings online.
+                  </p>
+                </div>
+              </div>
+              <div class="p-6 pt-0 flex justify-between items-center text-[10px] font-mono font-bold text-slate-600 border-t border-[#1A1A1A]/10 mt-4 pt-4">
+                <span class="text-slate-400">33 / 40 Brochure Page</span>
+                <span class="text-art-orange group-hover:translate-x-1.5 transition-transform flex items-center gap-1">Details →</span>
+              </div>
+            </div>
+
+          </div>
+
+      <!-- INTERACTIVE LABS SECTION (STREET CRED / HIGH INTERACTION) -->
+      <section id="interactive-labs" class="bg-[#1A1A1A] text-white py-20 px-6 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-art-blue/5 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto">
+          
+          <div class="text-center max-w-2xl mx-auto mb-16">
+            <span class="bg-transparent border border-white/20 text-white font-mono text-[9px] font-bold px-3 py-1 rounded-none uppercase tracking-widest inline-block mb-3">
+              EXPERIMENTAL LABS
+            </span>
+            <h2 class="font-serif text-4xl sm:text-5xl font-light tracking-tight">
+              Interactive Design Playground
+            </h2>
+            <p class="text-slate-400 text-xs uppercase tracking-wider mt-3 font-mono">
+              *Experience interactive system designs and layout customization pipelines first-hand
+            </p>
+          </div>
+
+          <!-- Dual Column Playgrounds -->
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch">
+            
+            <!-- PLAYGROUND A: FOOD DELIVERY PHONE SIMULATOR (Web & UI) -->
+            <div class="lg:col-span-6 bg-[#161616] p-6 sm:p-8 rounded-none border border-white/10 flex flex-col justify-between hover:border-art-blue transition-colors">
+              <div class="mb-6">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="font-mono text-[9px] text-art-blue font-bold tracking-widest uppercase">LAB 01 // INTERACTIVE WIREFRAME</span>
+                  <div class="flex gap-1 items-center">
+                    <span class="w-1.5 h-1.5 rounded-none bg-art-blue animate-pulse"></span>
+                    <span class="font-mono text-[8px] text-slate-500 uppercase tracking-widest">ACTIVE</span>
+                  </div>
+                </div>
+                <h3 class="font-serif text-2xl font-light mb-3">Active Food Mobile Simulator</h3>
+                <p class="text-slate-400 text-xs leading-relaxed">
+                  Toggle branding identities to see the interface recolor dynamically, add freshly curated bio-dishes to your basket, and trigger checkout outputs.
+                </p>
+                
+                <!-- Branding toggles inside simulator -->
+                <div class="flex flex-wrap items-center gap-2 mt-4">
+                  <span class="text-[9px] font-mono text-slate-500 uppercase tracking-widest">Apply App Identity:</span>
+                  <button id="sim-id-bloom" class="px-2.5 py-1 text-[9px] font-mono bg-white text-slate-900 border border-white/20 rounded-none font-bold hover:bg-slate-150 transition-colors cursor-pointer">
+                    🌸 Bloom Cafe
+                  </button>
+                  <button id="sim-id-modi" class="px-2.5 py-1 text-[9px] font-mono bg-slate-800 text-white border border-white/10 rounded-none font-bold hover:bg-slate-705 transition-colors cursor-pointer">
+                    📐 Modi Agency
+                  </button>
+                  <button id="sim-id-nectar" class="px-2.5 py-1 text-[9px] font-mono bg-amber-500 text-slate-950 rounded-none border border-amber-600 font-bold hover:bg-amber-400 transition-colors cursor-pointer">
+                    🍯 Nectar Honey
+                  </button>
+                </div>
+              </div>
+
+              <!-- Smartphone Shell Core -->
+              <div class="flex justify-center items-center py-4 bg-[#121212]/50 rounded-none border border-white/10">
+                <div class="w-72 bg-slate-950 rounded-[40px] border-4 border-slate-900 p-3 shadow-2xl relative overflow-hidden" id="phone-container">
+                  <!-- Mobile top speaker / camera bar -->
+                  <div class="absolute top-2.5 left-1/2 -translate-x-1/2 w-28 h-5 bg-slate-950 rounded-full z-30 flex items-center justify-center p-1 border border-slate-800/30">
+                    <span class="w-2 h-2 rounded-full bg-slate-900 border border-slate-800/50"></span>
+                  </div>
+
+                  <!-- Internal screen display -->
+                  <div class="bg-slate-900 rounded-[30px] overflow-hidden aspect-[9/18] relative flex flex-col font-sans text-slate-100 placeholder:text-slate-600" id="phone-screen">
+                    
+                    <!-- App Status Bar -->
+                    <div class="pt-4 px-4 pb-2 flex justify-between items-center text-[8px] font-mono text-slate-400 z-10 select-none bg-slate-900">
+                      <span id="phone-time">12:30 PM</span>
+                      <div class="flex items-center gap-1">
+                        <i data-lucide="signal" class="w-2.5 h-2.5"></i>
+                        <span class="w-3 h-2 bg-slate-400 rounded-none inline-block"></span>
+                      </div>
+                    </div>
+
+                    <!-- App Header -->
+                    <div class="px-3 py-2 flex items-center justify-between border-b border-white/5 bg-slate-900 z-10 transition-colors" id="app-header">
+                      <div class="flex items-center gap-1.5">
+                        <span class="w-5 h-5 rounded-none bg-art-blue flex items-center justify-center font-sans font-medium text-[9px]" id="app-avatar-initial">o</span>
+                        <div class="leading-none">
+                          <span class="block text-[8px] text-slate-400 uppercase font-mono">DELIVERING TO</span>
+                          <span class="text-[9px] font-bold text-white truncate max-w-[100px]" id="app-brand-name">Organic Bowl</span>
+                        </div>
+                      </div>
+                      <div class="relative cursor-pointer" id="phone-app-cart-trigger">
+                        <i data-lucide="shopping-bag" class="w-4 h-4 text-white"></i>
+                        <span class="absolute -top-1.5 -right-1.5 w-3.5 h-3.5 bg-art-blue text-white text-[7px] font-black rounded-none flex items-center justify-center leading-none" id="phone-cart-badge">0</span>
+                      </div>
+                    </div>
+
+                    <!-- Mobile Screen Body (Scrollable container / dynamically switched with cart list) -->
+                    <div class="flex-1 overflow-y-auto px-3 py-2.5 space-y-3 pb-16 scrollbar-none" id="phone-screen-body">
+                      
+                      <!-- Slogan / Search block -->
+                      <div class="space-y-1.5" id="phone-search-parent">
+                        <h4 class="font-serif text-[11px] font-bold text-white tracking-tight" id="phone-slogan">Fresh, Organic & Fast</h4>
+                        <div class="flex items-center bg-white/5 border border-white/10 rounded-none px-2 py-1 text-[8px] text-slate-400">
+                          <i data-lucide="search" class="w-3 h-3 text-slate-500 mr-1.5"></i>
+                          <span>Translate tasty dishes...</span>
+                        </div>
+                      </div>
+
+                      <!-- Horizontal Tags slider -->
+                      <div class="flex items-center gap-1.5 overflow-x-auto whitespace-nowrap scrollbar-none text-[8px] py-1" id="food-categories">
+                        <span class="bg-art-blue text-white px-2.5 py-0.5 rounded-none font-bold cursor-pointer">⭐ Popular</span>
+                        <span class="bg-white/5 text-slate-300 px-2 py-0.5 rounded-none cursor-pointer hover:bg-white/10">🍕 Pizzas</span>
+                        <span class="bg-white/5 text-slate-300 px-2 py-0.5 rounded-none cursor-pointer hover:bg-white/10">🥗 Bowls</span>
+                        <span class="bg-white/5 text-slate-300 px-2 py-0.5 rounded-none cursor-pointer hover:bg-white/10">🥤 Teas</span>
+                      </div>
+
+                      <!-- Dynamic food cards stack -->
+                      <div class="space-y-2" id="sim-product-list">
+                        <!-- Items rendered by js -->
+                      </div>
+
+                    </div>
+
+                    <!-- Cart View (Hidden by default, triggered on cart icon click) -->
+                    <div class="absolute inset-x-0 bottom-0 top-[40px] bg-[#1A1A1A] z-20 flex flex-col justify-between p-4 transform translate-y-full transition-transform duration-300" id="phone-cart-panel">
+                      <div class="flex items-center justify-between border-b border-white/5 pb-2.5 mb-3">
+                        <h5 class="text-xs font-bold text-white flex items-center gap-2">
+                          <i data-lucide="shopping-cart" class="w-3.5 h-3.5 text-art-blue"></i>
+                          Basket Order
+                        </h5>
+                        <button id="close-cart-btn" class="text-[10px] font-mono text-slate-400 hover:text-white transition-colors cursor-pointer">
+                          Close
+                        </button>
+                      </div>
+
+                      <!-- Cart items container -->
+                      <div class="flex-1 overflow-y-auto space-y-2" id="phone-cart-items-container">
+                        <!-- Dynamic items -->
+                        <div class="text-slate-500 text-[10px] italic text-center py-12" id="empty-cart-text">Your basket is empty</div>
+                      </div>
+
+                      <!-- Pricing section -->
+                      <div class="border-t border-white/5 pt-3 mt-3 space-y-1.5 font-mono text-[9px] text-slate-300">
+                        <div class="flex justify-between">
+                          <span>Subtotal:</span>
+                          <span id="cart-val-sub">$0.00</span>
+                        </div>
+                        <div class="flex justify-between">
+                          <span>VAT & Pack:</span>
+                          <span id="cart-val-tax">$1.50</span>
+                        </div>
+                        <div class="flex justify-between text-xs font-bold text-white border-t border-white/5 pt-2">
+                          <span>Grand Total:</span>
+                          <span id="cart-val-total">$0.00</span>
+                        </div>
+
+                        <button id="checkout-simulate-btn" class="w-full py-2 bg-art-blue text-white rounded-none text-center font-sans text-[10px] font-bold uppercase tracking-widest hover:bg-white hover:text-slate-900 transition-all cursor-pointer mt-2 shadow-xs">
+                          Confirm Secure Payment
+                        </button>
+                      </div>
+                    </div>
+
+                    <!-- Receipt Confirmed Overlay Animation -->
+                    <div class="absolute inset-0 bg-slate-900/95 z-40 flex flex-col items-center justify-center p-6 text-center transform scale-0 transition-transform duration-300" id="phone-order-success-screen">
+                      <div class="w-12 h-12 rounded-none bg-art-blue/20 text-art-blue flex items-center justify-center mb-4 border border-art-blue">
+                        <i data-lucide="check" class="w-6 h-6"></i>
+                      </div>
+                      <h5 class="font-serif text-base text-white font-bold leading-tight">Order Received!</h5>
+                      <p class="text-[9px] text-slate-400 font-mono mt-1">Receipt ID: <span id="success-order-id">#9274291</span></p>
+                      
+                      <div class="bg-slate-950 p-3 rounded-none border border-white/5 my-4 w-full">
+                        <p class="font-mono text-[8px] text-[#E89E7E] leading-none">ORDER DISPATCHED VIA</p>
+                        <p class="font-sans font-bold text-xs text-white uppercase mt-1" id="success-brand-identity">BLOOM LUNCH</p>
+                        <div class="w-full h-1 bg-white/5 rounded-none overflow-hidden mt-2">
+                          <div class="h-full bg-art-blue" style="width: 70%"></div>
+                        </div>
+                      </div>
+
+                      <button id="reset-sim-btn" class="px-4 py-1.5 bg-slate-800 hover:bg-slate-705 text-white rounded-none font-mono text-[9px] cursor-pointer">
+                        Return to Shop
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- PLAYGROUND B: MOTIVATIONAL POSTER GENERATOR (Social Graphics) -->
+            <div class="lg:col-span-6 bg-[#161616] p-6 sm:p-8 rounded-none border border-white/10 flex flex-col justify-between hover:border-art-blue transition-colors">
+              
+              <div class="mb-6">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="font-mono text-[9px] text-[#E89E7E] font-bold tracking-widest uppercase">LAB 02 // CUSTOM PERMIT DESIGN</span>
+                  <div class="flex gap-1 items-center">
+                    <span class="w-1.5 h-1.5 rounded-none bg-[#E89E7E] animate-pulse"></span>
+                    <span class="font-mono text-[8px] text-slate-500 uppercase tracking-widest">ACTIVE</span>
+                  </div>
+                </div>
+                <h3 class="font-serif text-2xl font-light mb-3">Engineering Permit & Badge Generator</h3>
+                <p class="text-slate-400 text-xs leading-relaxed">
+                  Generate personal engineering log stamps matching Piyush's STEM portfolio. Fine-tune labels, choose electrical colors, choose stamp templates and copy details!
+                </p>
+              </div>
+
+              <!-- Interactive Card Creator interface -->
+              <div class="grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
+                
+                <!-- Controls left -->
+                <div class="sm:col-span-5 space-y-4">
+                  <div class="space-y-1">
+                    <label class="text-[9px] font-mono text-slate-400 uppercase font-bold tracking-widest">Your Message:</label>
+                    <input id="sticker-text" type="text" value="System Calibration Live" max-length="40" class="w-full bg-[#121212] text-white border border-white/10 focus:border-art-blue rounded-none p-2 text-xs focus:outline-none placeholder:text-slate-700 font-serif" />
+                  </div>
+
+                  <div class="space-y-1">
+                    <label class="text-[9px] font-mono text-slate-400 uppercase font-bold tracking-widest">Theme Canvas:</label>
+                    <div class="grid grid-cols-3 gap-1.5" id="sticker-theme-selector">
+                      <button data-sticker-theme="sunset" class="py-1 text-[8px] font-mono bg-orange-500/10 border border-orange-500/40 text-orange-400 rounded-none font-bold uppercase cursor-pointer">
+                        Sunset
+                      </button>
+                      <button data-sticker-theme="matcha" class="py-1 text-[8px] font-mono bg-emerald-500/10 border border-emerald-500/40 text-emerald-400 rounded-none font-bold uppercase cursor-pointer">
+                        Matcha
+                      </button>
+                      <button data-sticker-theme="blossom" class="py-1 text-[8px] font-mono bg-pink-500/10 border border-pink-500/45 text-pink-400 rounded-none font-bold uppercase cursor-pointer">
+                        Blossom
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="space-y-1">
+                    <label class="text-[9px] font-mono text-slate-400 uppercase font-bold tracking-widest">Toggle Stamp:</label>
+                    <div class="flex flex-wrap gap-1.5" id="sticker-graphic-selector">
+                      <button data-sticker-stamp="coffee" class="px-2.5 py-1 text-[9px] bg-[#121212] border border-white/10 hover:border-art-blue text-slate-300 rounded-none cursor-pointer flex items-center gap-1 active-stamp-btn">
+                        ⚙️ Gear
+                      </button>
+                      <button data-sticker-stamp="heart" class="px-2.5 py-1 text-[9px] bg-[#121212] border border-white/10 hover:border-art-blue text-slate-300 rounded-none cursor-pointer flex items-center gap-1">
+                        ⚡ Battery
+                      </button>
+                      <button data-sticker-stamp="plant" class="px-2.5 py-1 text-[9px] bg-[#121212] border border-white/10 hover:border-art-blue text-slate-300 rounded-none cursor-pointer flex items-center gap-1">
+                        🔬 Tool
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="pt-2">
+                    <button id="copy-poster-slug-btn" class="w-full flex items-center justify-center gap-1.5 py-2 border border-dashed border-white/20 hover:border-art-blue rounded-none text-xs font-mono text-slate-300 hover:text-white transition-colors cursor-pointer">
+                      <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+                      <span>Copy Badge Permit</span>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Animated Display Output right -->
+                <div class="sm:col-span-7 flex justify-center">
+                  <div class="w-full max-w-[240px] aspect-square rounded-none p-6 flex flex-col justify-between items-center text-center transition-all duration-500 shadow-xs border border-white/10 relative overflow-hidden" id="sticker-output-canvas" style="background-color: #fca5a5;">
+                    <!-- Retro grid pattern background -->
+                    <div class="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px] opacity-20 pointer-events-none"></div>
+
+                    <!-- Header/Footer label -->
+                    <span class="relative z-10 font-mono text-[8.5px] tracking-widest uppercase font-bold text-white/90 bg-black/20 px-2 py-0.5 rounded-none border border-white/10 animate-fade-in" id="sticker-meta-header">
+                      CALIBRATION CERTIFICATE // EST 2026
+                    </span>
+
+                    <!-- Main illustration vector badge -->
+                    <div class="relative z-10 my-2 flex items-center justify-center text-5xl py-3 transform hover:scale-110 hover:rotate-6 transition-all" id="sticker-emoji-container">
+                      ⚙️
+                    </div>
+
+                    <!-- Interactive text -->
+                    <div class="relative z-10">
+                      <h4 class="font-serif italic text-lg sm:text-xl font-bold leading-tight tracking-tight text-slate-900 drop-shadow-xs" id="sticker-display-text">
+                        "System Calibration Live"
+                      </h4>
+                      <p class="font-mono text-[7px] text-slate-900/60 uppercase tracking-widest mt-1">
+                        PIYUSH SHARMA ENGINEERING ©
+                      </p>
+                    </div>
+
+                    <!-- Retro border shine -->
+                    <div class="absolute inset-2 border border-dashed border-white/10 rounded-none pointer-events-none"></div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CONTACT & COLLABORATION INQUIRY -->
+      <section id="contact" class="bg-white py-20 px-6 border-t border-[#1A1A1A]/10 relative">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+          
+          <!-- Contact info left -->
+          <div class="lg:col-span-5 space-y-6">
+            <p class="font-mono text-xs font-bold text-art-blue uppercase tracking-widest">Connect With Me</p>
+            <h2 class="font-serif text-4xl sm:text-5xl font-bold text-slate-900 tracking-tight leading-none">
+              Let's build<br />something functional.
+            </h2>
+            <p class="text-slate-500 text-sm leading-relaxed font-light">
+              Always searching for ambitious teammates, robotics hackathons, and innovative open-source projects. Drop your message or custom parameters right here and let's coordinate.
+            </p>
+
+            <div class="space-y-4 pt-4 border-t border-[#1A1A1A]/10">
+              <div class="flex items-center gap-3">
+                <span class="w-10 h-10 rounded-none bg-white border border-[#1A1A1A]/10 flex items-center justify-center text-slate-700">
+                  <i data-lucide="mail" class="w-4 h-4 text-[#C25B40]"></i>
+                </span>
+                <div>
+                  <p class="font-mono text-[9px] text-slate-400">Direct Message Address</p>
+                  <a href="mailto:piyush.sharma.engineering@gmail.com" class="font-serif italic text-[#1A1A1A] hover:text-art-blue transition-colors text-sm">piyush.sharma.engineering@gmail.com</a>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="w-10 h-10 rounded-none bg-white border border-[#1A1A1A]/10 flex items-center justify-center text-slate-700">
+                  <i data-lucide="navigation" class="w-4 h-4 text-[#C25B40]"></i>
+                </span>
+                <div>
+                  <p class="font-mono text-[9px] text-slate-400">Current Residence Coordinates</p>
+                  <p class="font-serif text-[#1A1A1A] text-sm font-light">Delhi, India</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social handles grid -->
+            <div class="flex items-center gap-2 pt-6">
+              <span class="font-mono text-[9px] text-slate-400 mr-2 uppercase tracking-widest">Connect:</span>
+              <a href="#" class="w-9 h-9 border border-[#1A1A1A]/10 hover:border-[#1A1A1A] text-slate-700 hover:text-slate-950 flex items-center justify-center transition-all bg-white">
+                <i data-lucide="instagram" class="w-4 h-4"></i>
+              </a>
+              <a href="#" class="w-9 h-9 border border-[#1A1A1A]/10 hover:border-[#1A1A1A] text-slate-700 hover:text-slate-950 flex items-center justify-center transition-all bg-white">
+                <i data-lucide="linkedin" class="w-4 h-4"></i>
+              </a>
+              <a href="#" class="w-9 h-9 border border-[#1A1A1A]/10 hover:border-[#1A1A1A] text-slate-700 hover:text-slate-950 flex items-center justify-center transition-all bg-white">
+                <i data-lucide="twitter" class="w-4 h-4"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form right -->
+          <div class="lg:col-span-7 bg-[#F4EFEA] border border-[#1A1A1A] p-8 rounded-none" id="interaction-form-wrapper">
+            <form id="portfolio-contact-form" class="space-y-6">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <!-- User name input -->
+                <div class="space-y-2">
+                  <label for="frm-name" class="font-mono text-[9px] text-slate-500 uppercase font-bold tracking-widest block">Your Name</label>
+                  <input type="text" id="frm-name" required placeholder="Jane Doe" class="w-full bg-white border border-[#1A1A1A] rounded-none px-4 py-3 text-sm focus:outline-none focus:border-[#C25B40] transition-colors font-serif placeholder:text-slate-300" />
+                </div>
+                <!-- User email input -->
+                <div class="space-y-2">
+                  <label for="frm-email" class="font-mono text-[9px] text-slate-500 uppercase font-bold tracking-widest block">Email Address</label>
+                  <input type="email" id="frm-email" required placeholder="jane@example.com" class="w-full bg-white border border-[#1A1A1A] rounded-none px-4 py-3 text-sm focus:outline-none focus:border-[#C25B40] transition-colors font-serif placeholder:text-slate-300" />
+                </div>
+              </div>
+
+              <!-- Scope selection sliders -->
+              <div class="space-y-2">
+                <p class="font-mono text-[9px] text-slate-500 uppercase font-bold tracking-widest block">Interest Scope Filter</p>
+                <div class="flex flex-wrap gap-2" id="scope-pills-container">
+                  <button type="button" data-scope="branding" class="px-4 py-2 bg-white text-slate-900 text-xs font-mono rounded-none border border-[#1A1A1A]/30 hover:border-[#1A1A1A] active-scope-pill cursor-pointer">
+                    ⚙️ Robotics & Hardware
+                  </button>
+                  <button type="button" data-scope="editorial" class="px-4 py-2 bg-white text-slate-900 text-xs font-mono rounded-none border border-[#1A1A1A]/30 hover:border-[#1A1A1A] cursor-pointer">
+                    📟 Web Systems Code
+                  </button>
+                  <button type="button" data-scope="web" class="px-4 py-2 bg-white text-slate-900 text-xs font-mono rounded-none border border-[#1A1A1A]/30 hover:border-[#1A1A1A] cursor-pointer">
+                    🔬 CAD Mechanical Layout
+                  </button>
+                </div>
+              </div>
+
+              <!-- Message body inputs -->
+              <div class="space-y-2">
+                <label for="frm-message" class="font-mono text-[9px] text-slate-500 uppercase font-bold tracking-widest block">Your Brief Outline</label>
+                <textarea id="frm-message" required rows="4" placeholder="Briefly describe your hardware specs or logic outline..." class="w-full bg-white border border-[#1A1A1A] rounded-none px-4 py-3 text-sm focus:outline-none focus:border-[#C25B40] transition-colors font-serif placeholder:text-slate-300"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-4 bg-[#1A1A1A] text-white rounded-none text-center font-mono text-xs font-bold uppercase tracking-widest hover:bg-[#C25B40] transition-all flex items-center justify-center gap-2 cursor-pointer" id="form-submit-btn">
+                <span>TRANSMIT BRIEF DETAILS</span>
+                <i data-lucide="send" class="w-4 h-4"></i>
+              </button>
+            </form>
+            
+            <!-- Success Overlay inside Form -->
+            <div id="form-success-alert" class="hidden mt-6 p-4 bg-emerald-50 text-emerald-800 border border-emerald-700/30 rounded-none flex items-center gap-3 animate-fade-in">
+              <span class="w-8 h-8 rounded-none bg-emerald-100/30 flex items-center justify-center shrink-0 border border-emerald-500/20">
+                <i data-lucide="check" class="w-4.5 h-4.5 text-emerald-600"></i>
+              </span>
+              <div>
+                <p class="font-serif italic font-bold text-sm">Brief Transmitted Successfully!</p>
+                <p class="text-xs text-emerald-600/90 font-mono">Piyush will coordinate with you shortly from Delhi.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-slate-400 py-12 px-6 font-mono text-center text-xs border-t border-white/5">
+      <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-2">
+          <span class="text-white font-display font-black text-base">ps.</span>
+          <span>© 2026 Piyush Sharma STEM. All Rights Reserved.</span>
+        </div>
+        
+        <!-- Live status telemetry (Humble and clean, no margin clutter) -->
+        <div class="flex items-center gap-2 text-slate-500 text-[10px]">
+          <span>RENDER TIME:</span>
+          <span id="render-utc-time" class="text-slate-300">2026-05-23 02:49:22 UTC</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS ENTRY POINT (Vanilla HTML/CSS/JS) -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
